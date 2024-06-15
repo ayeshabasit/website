@@ -36,6 +36,9 @@ module.exports = {
         "athenix-light-green": "#A2B3AB",
         "athenix-white": "#F9F9FB",
         "athenix-gray": "#C4C4C4",
+        // "athenix-gray-secondary": "#9BA9B4",
+        // "athenix-gray": "#d8e8e0",
+        //athenix-green-secondary-new: "#227E54"
       },
       spacing: {
         "9/16": "56.25%",
