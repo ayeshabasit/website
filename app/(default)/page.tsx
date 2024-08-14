@@ -9,15 +9,17 @@ import Newsletter from "@/components/newsletter";
 import Zigzag from "@/components/zigzag";
 import Testimonials from "@/components/testimonials";
 import PortfolioCarousel from "@/components/portfolio-carousel";
+import WaysWeCanWorkWithYou from "@/components/ways-we-can-work-with-you";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <PortfolioCarousel />
+      <Testimonials />
+      <WaysWeCanWorkWithYou />
       <Zigzag />
       <Features />
-      <Testimonials />
       <Newsletter />
     </>
   );

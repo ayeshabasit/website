@@ -4,7 +4,10 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/js/**/*.js",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -32,11 +35,12 @@ module.exports = {
         },
         // Athenix colors here
 
+        "athenix-bright-green": "#3DBB6D",
         "athenix-dark-green": "#113826",
         "athenix-light-green": "#A2B3AB",
         "athenix-white": "#F9F9FB",
         "athenix-gray": "#C4C4C4",
-        // "athenix-gray-secondary": "#9BA9B4",
+        "athenix-gray-secondary": "#9BA9B4",
         // "athenix-gray": "#d8e8e0",
         //athenix-green-secondary-new: "#227E54"
       },
@@ -81,7 +85,22 @@ module.exports = {
       scale: {
         98: ".98",
       },
+
+      animation: {
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "fade-up": "fadeUp 0.5s ease-out",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        fadeUp: {
+          "0%": { opacity: "0", transform: "translateY(10px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms"), require("tw-elements/plugin.cjs")],
 };

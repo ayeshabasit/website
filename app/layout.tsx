@@ -36,8 +36,11 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           {children}
-          <Banner />
         </div>
+        <script
+          type="text/javascript"
+          src="../../node_modules/tw-elements/js/tw-elements.umd.min.js"
+        ></script>
       </body>
     </html>
   );

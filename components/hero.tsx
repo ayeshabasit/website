@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-5xl mx-auto text-athenix-gray text-left pb-12 ml-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">
+            <h1 className="text-6xl mb-4 font-normal" data-aos="fade-up">
               Trusted by startups all over the world
             </h1>
             <p
