@@ -4,9 +4,8 @@ export const metadata = {
 };
 
 import Hero from "@/components/hero";
-import Features from "@/components/features";
-import Newsletter from "@/components/newsletter";
-import Zigzag from "@/components/zigzag";
+import Features from "@/components/skills";
+import Newsletter from "@/components/schedule-consultation";
 import Testimonials from "@/components/testimonials";
 import PortfolioCarousel from "@/components/portfolio-carousel";
 import WaysWeCanWorkWithYou from "@/components/ways-we-can-work-with-you";
@@ -18,7 +17,6 @@ export default function Home() {
       <PortfolioCarousel />
       <Testimonials />
       <WaysWeCanWorkWithYou />
-      <Zigzag />
       <Features />
       <Newsletter />
     </>

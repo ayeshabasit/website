@@ -6,12 +6,12 @@ import MobileMenu from "./mobile-menu";
 export default function Header() {
   return (
     <header className="absolute w-full z-30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20">
+      <div className=" mx-auto px-4 sm:px-6">
+        <div className="flex items-center justify-between h-20 ">
           {/* Site branding */}
           <div className="flex flex-row items-center shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
+            <Link href="/" className="block" aria-label="Athenix">
               <Image
                 src={Logo}
                 alt="logo"
@@ -66,7 +66,7 @@ export default function Header() {
             </ul> */}
           </nav>
 
-          <MobileMenu />
+          {/* <MobileMenu /> */}
         </div>
       </div>
     </header>

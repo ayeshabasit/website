@@ -1,8 +1,15 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import dynamic from "next/dynamic";
 import Octilearn from "@/public/images/octilearn-1.png";
 import Octilearn2 from "@/public/images/octilearn-2.png";
 import Octilearn3 from "@/public/images/octilearn-3.png";
+
+type PortfolioCardProps = {
+  firstImage: StaticImageData;
+  secondImage: StaticImageData;
+  title: string;
+  year: string;
+};
 
 export default function PortfolioCard() {
   return (
