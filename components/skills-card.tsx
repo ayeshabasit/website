@@ -17,7 +17,7 @@ export default function SkillsCard({ icon, title, details }: SkillsCardProps) {
       data-aos-anchor="[data-aos-id-blocks]"
     >
       {icon}
-      <h4 className="h4 mb-2">{title}</h4>
+      <h4 className="text-athenix-dark-green h4 mb-2 mt-2">{title}</h4>
       <p className="text-lg text-gray-400 text-center">{details}</p>
     </div>
   );

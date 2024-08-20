@@ -47,29 +47,22 @@ export default function Newsletter() {
                 Schedule a Free Consultation
               </h3>
               <p className="text-athenix-light-green text-lg">
-                Join our newsletter to get top news before anyone else.
+                Get a quick quote and timeline estimate.
               </p>
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
-              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input
-                  type="email"
-                  className="w-full appearance-none bg-athenix-white border border-athenix-dark-green focus:border-athenix-light-green rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-athenix-dark-green"
-                  placeholder="Your best email…"
-                  aria-label="Your best email…"
-                />
-                <a
-                  className="btn text-athenix-dark-green bg-athenix-light-green hover:bg-white shadow"
-                  href="#0"
-                >
-                  Subscribe
-                </a>
-              </div>
+            <div className="w-full lg:w-1/2">
+              <a
+                className="btn text-athenix-dark-green bg-athenix-white  hover:bg-athenix-light-green shadow w-full"
+                href="https://calendly.com/athenix-discovery-call/30min"
+                target="_blank"
+              >
+                Subscribe
+              </a>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
-            </form>
+            </div>
           </div>
         </div>
       </div>

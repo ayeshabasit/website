@@ -1,7 +1,7 @@
 export default function SkillIcon() {
   return (
     <svg
-      className="w-16 h-16 mb-4"
+      className="w-16 h-16"
       viewBox="0 0 64 64"
       xmlns="http://www.w3.org/2000/svg"
     >

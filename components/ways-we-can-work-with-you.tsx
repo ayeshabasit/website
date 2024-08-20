@@ -89,7 +89,7 @@ export default function WaysWeCanWorkWithYou() {
           </div>
           {/* toggler */}
           <div className="w-full flex justify-center cursor-pointer">
-            <div className="bg-athenix-gray h-14 rounded-lg flex items-center p-4">
+            <div className="bg-athenix-gray  rounded-lg flex items-center">
               <div
                 className={`rounded-lg btn text-athenix-dark-green ${
                   staffAugmentation

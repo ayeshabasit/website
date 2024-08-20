@@ -29,7 +29,8 @@ export default function Hero() {
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-black bg-athenix-white hover:bg-athenix-gray hover:text-black w-auto mb-4 "
-                  href="#0"
+                  href="https://calendly.com/athenix-discovery-call/30min"
+                  target="_blank"
                 >
                   Tell us about your project
                 </a>
