@@ -39,11 +39,14 @@ export default function Header() {
 
           <div className="flex flex-row items-center shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
-              <div className="text- text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+            <div className="text- text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+              <a
+                href="https://calendly.com/athenix-discovery-call/30min"
+                target="_blank"
+              >
                 Get in Touch
-              </div>
-            </Link>
+              </a>
+            </div>
           </div>
 
           {/* Desktop navigation */}

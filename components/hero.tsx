@@ -38,38 +38,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-evenly">
-          <p
-            className="text-xl text-gray-400 mb-8"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            Trusted call
-          </p>
-          <p
-            className="text-xl text-gray-400 mb-8"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            Trusted call
-          </p>
-
-          <p
-            className="text-xl text-gray-400 mb-8"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            Trusted call
-          </p>
-
-          <p
-            className="text-xl text-gray-400 mb-8"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            Trusted call
-          </p>
-        </div>
       </div>
     </section>
   );
