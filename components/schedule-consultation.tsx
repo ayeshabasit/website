@@ -58,7 +58,7 @@ export default function Newsletter() {
                 href="https://calendly.com/athenix-discovery-call/30min"
                 target="_blank"
               >
-                Subscribe
+                Get Your Free Quote
               </a>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
