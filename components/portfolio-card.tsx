@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 
 type PortfolioCardProps = {
   firstImage: StaticImageData;
-  secondImage?: StaticImageData;
+  secondImage?: StaticImageData | null;
   title: string;
   year: string;
 };
