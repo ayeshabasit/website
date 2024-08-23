@@ -16,14 +16,15 @@ export default function Hero() {
               className="text-4xl md:text-6xl mb-4 font-medium"
               data-aos="fade-up"
             >
-              Trusted by startups all over the world
+              Trusted for Supabase Expertise by Startups Worldwide
             </h1>
             <p
               className="text-xl text-athenix-gray mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Onboard Top-Tier Developers in as Little as 48 Hours.
+              All the Supabase & NextJS Developer Expertise You Need, Right
+              Here.
             </p>
             <div className="flex flex-col ">
               <div data-aos="fade-up" data-aos-delay="400">
