@@ -64,13 +64,13 @@ export const portfolio = [
     secondImage: Octilearn2,
   },
   {
-    title: "NextJS Web App & React Native Mobile App",
+    title: "Supabase/NextJS Web App & React Native Mobile App",
     year: "2022",
     firstImage: BiaCare1,
     secondImage: BiaCare2,
   },
   {
-    title: "NextJS Web App",
+    title: "Supabase & NextJS Web App",
     year: "2022",
     firstImage: CandidatePortal,
     secondImage: null,
@@ -82,13 +82,13 @@ export const portfolio = [
     secondImage: MovieApp2,
   },
   {
-    title: "React Native App",
+    title: "React Native & Firebase App",
     year: "2023",
     firstImage: Neuroverse1,
     secondImage: Neuroverse2,
   },
   {
-    title: "React Native App",
+    title: "React Native & Firebase App",
     year: "2023",
     firstImage: Zensory1,
     secondImage: Zensory2,

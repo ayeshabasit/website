@@ -19,15 +19,15 @@ export default function WaysWeCanWorkWithYou() {
   const [Outsourcing, setOutsourcing] = useState<boolean>(false);
   return (
     <section>
-      <div className="bg-athenix-dark-green w-full mx-auto px-4 sm:px-6">
+      <div className="bg-athenix-dark-green px-8">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Flexible Ways We Can Work With You</h1>
             {staffAugmentation && (
-              <div className="flex flex-row justify-between items-center">
+              <div className="flex flex-col md:flex-row justify-between items-center">
                 <p
-                  className={`text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
+                  className={`text-xl mb-8 md:mb-0 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     staffAugmentation
                       ? "opacity-100 animate-fade-up"
                       : "opacity-0"
@@ -52,9 +52,9 @@ export default function WaysWeCanWorkWithYou() {
             )}
 
             {teams && (
-              <div className="flex flex-1 flex-row justify-between items-center">
+              <div className="flex flex-col md:flex-row justify-between items-center">
                 <p
-                  className={`text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
+                  className={`text-xl mb-8 md:mb-0 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     teams ? "opacity-100 animate-fade-up" : "opacity-0"
                   }`}
                 >
@@ -75,15 +75,15 @@ export default function WaysWeCanWorkWithYou() {
             )}
 
             {Outsourcing && (
-              <div className="flex flex-row justify-between items-center">
+              <div className="flex flex-col md:flex-row justify-between items-center">
                 <p
-                  className={`text-2xl text-left flex-1 text-gray-400 transition-opacity duration-500 ease-out ${
+                  className={`text-xl mb-8 md:mb-0 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     Outsourcing ? "opacity-100 animate-fade-up" : "opacity-0"
                   }`}
                 >
                   Our PM and software developments teams building for you.
                 </p>
-                <div className="flex relative items-center justify-center w-72 h-72 bg-white rounded-full overflow-hidden ml-4">
+                <div className="flex relative items-center justify-center w-72 h-72 bg-white rounded-full overflow-hidden">
                   <Lottie
                     loop
                     animationData={softwareOutsourcing}
@@ -98,10 +98,10 @@ export default function WaysWeCanWorkWithYou() {
             )}
           </div>
           {/* toggler */}
-          <div className="w-full flex justify-center cursor-pointer">
-            <div className="bg-athenix-gray  rounded-lg flex items-center">
+          <div className="flex justify-center cursor-pointer">
+            <div className="bg-athenix-gray rounded-lg flex items-center">
               <div
-                className={`rounded-lg btn text-athenix-dark-green ${
+                className={`flex px-2 md:px-8 items-center rounded-lg text-center text-athenix-dark-green h-full text-sm md:text-lg ${
                   staffAugmentation
                     ? "duration-500 bg-gray-800 text-athenix-white"
                     : ""
@@ -115,7 +115,7 @@ export default function WaysWeCanWorkWithYou() {
                 Staff Augmentation
               </div>
               <div
-                className={`rounded-lg btn text-athenix-dark-green ${
+                className={`flex px-2 py-2 md:py-4 md:px-8 items-center rounded-lg text-center text-athenix-dark-green h-full text-sm md:text-lg ${
                   teams ? "duration-500 bg-gray-800 text-athenix-white" : ""
                 }`}
                 onClick={() => {
@@ -127,7 +127,7 @@ export default function WaysWeCanWorkWithYou() {
                 Software Development Teams
               </div>
               <div
-                className={`rounded-lg btn text-athenix-dark-green ${
+                className={`flex px-2 md:px-8 items-center rounded-lg text-center text-athenix-dark-green h-full text-sm md:text-lg ${
                   Outsourcing
                     ? "duration-500 bg-gray-800 text-athenix-white"
                     : ""
