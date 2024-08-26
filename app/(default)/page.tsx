@@ -1,6 +1,7 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Athenix",
+  description:
+    "Transforming your idea into an MVP with Supabase, Next.js, and React Native",
 };
 
 import Hero from "@/components/hero";
