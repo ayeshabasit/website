@@ -110,7 +110,6 @@ export default function ModalVideo({
                   src={video}
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
                 ></iframe>
               </Dialog.Panel>
             </div>
