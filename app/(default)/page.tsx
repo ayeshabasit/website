@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Hero />
       <PortfolioCarousel />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <WaysWeCanWorkWithYou />
       <Features />
       <Newsletter />

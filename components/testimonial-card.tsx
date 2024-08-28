@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import VideoThumb from "@/public/images/hero-image-01.jpg";
+import VideoThumb from "@/public/images/testimonial-01.webp";
 import ModalVideo from "@/components/modal-video";
 
 type TestimonialCardProps = {
@@ -7,6 +7,7 @@ type TestimonialCardProps = {
   name: string;
   company: string;
   quote: string;
+  link: string;
 };
 
 export default function TestimonialCard({
@@ -14,6 +15,7 @@ export default function TestimonialCard({
   name,
   company,
   quote,
+  link,
 }: TestimonialCardProps) {
   return (
     <div
@@ -44,7 +46,7 @@ export default function TestimonialCard({
         thumbWidth={1024}
         thumbHeight={576}
         thumbAlt="Modal video thumbnail"
-        video="/videos/video.mp4"
+        video="https://www.youtube.com/embed/vnP6NOPKSbw?si=la4DPKeyz6Lsj2d0"
         videoWidth={1920}
         videoHeight={1080}
       />
@@ -55,7 +57,7 @@ export default function TestimonialCard({
         <cite className="text-gray-200 not-italic">{name}</cite> -{" "}
         <a
           className="text-athenix-bright-green hover:text-gray-200 transition duration-150 ease-in-out"
-          href="#0"
+          href={link}
         >
           {company}
         </a>
