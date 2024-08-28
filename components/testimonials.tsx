@@ -17,41 +17,42 @@ export default function Testimonials() {
             </div>
 
             <p className="text-xl text-gray-400">
-              Vitae aliquet nec ullamcorper sit amet risus nullam eget felis
-              semper quis lectus nulla at volutpat diam ut venenatis tellus—in
-              ornare.
+              Our clients rave about the exceptional results and personalized
+              service they receive. Discover their stories and see why they
+              trust Athenix to turn their visions into reality.
             </p>
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
+          <div className="max-w-sm mx-auto flex justify-center align-center">
+            {/* <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none"> */}
             {/* 1st testimonial */}
             <TestimonialCard
               src={TestimonialImage01}
-              name={"Anastasia Dan"}
-              company={"UX Board"}
+              name={"Cory Salveson"}
+              company={"Cumulus Labs"}
               quote={
-                "    — Athenix lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before."
+                "    — I would highly recommend Athenix for anyone in search of a software company that will treat you like a real partner and not just another client."
               }
+              link={"https://www.linkedin.com/in/corysalveson/"}
             />
-            {/* 2nd testimonial */}
-            <TestimonialCard
+            {/* <TestimonialCard
               src={TestimonialImage02}
               name={"Anastasia Dan"}
               company={"UX Board"}
               quote={
                 "    — Athenix lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before."
               }
-            />
+            /> */}
             {/* 3rd testimonial */}
-            <TestimonialCard
+            {/* <TestimonialCard
               src={TestimonialImage03}
               name={"Anastasia Dan"}
               company={"UX Board"}
               quote={
                 "    — Athenix lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before."
               }
-            />
+            /> */}
           </div>
         </div>
       </div>
