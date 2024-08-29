@@ -11,7 +11,7 @@ export default function Hero() {
         {/* Hero content split view*/}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-5xl mx-auto text-athenix-gray text-left pb-12 md:pb-16 mx-5 md:mx-12 bg-pink-100">
+          <div className="max-w-5xl mx-auto text-athenix-gray text-left pb-12 md:pb-16 mx-8 md:mx-12 ">
             <h1
               className="text-4xl md:text-6xl mb-4 font-medium"
               data-aos="fade-up"

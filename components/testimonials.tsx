@@ -34,7 +34,8 @@ export default function Testimonials() {
               quote={
                 "    — I would highly recommend Athenix for anyone in search of a software company that will treat you like a real partner and not just another client."
               }
-              link={"https://www.linkedin.com/in/corysalveson/"}
+              companyLink={"https://app.cumulus.world/login"}
+              linkedIn={"https://www.linkedin.com/in/corysalveson/"}
             />
             {/* <TestimonialCard
               src={TestimonialImage02}
