@@ -2,20 +2,19 @@ import SkillIcon from "@/public/icons/skill-icon";
 import HassleFreeOnboarding from "@/public/icons/hassle-free-onboarding";
 import DeadlineAssurance from "@/public/icons/deadline-assurance";
 import CostEffectiveSolutions from "@/public/icons/cost-effective-solutions";
-
-import Octilearn from "@/public/images/octilearn-1.png";
-import Octilearn2 from "@/public/images/octilearn-2.png";
-import BiaCare1 from "@/public/images/bia-care-01.png";
-import BiaCare2 from "@/public/images/bia-care-02.png";
-import CandidatePortal from "@/public/images/candidate-portal-01.png";
-import MovieApp1 from "@/public/images/movie-app-01.png";
-import MovieApp2 from "@/public/images/movie-app-02.png";
-import Neuroverse1 from "@/public/images/neuroverse-01.png";
-import Neuroverse2 from "@/public/images/neuroverse-02.png";
-import Zensory1 from "@/public/images/zensory-01.png";
-import Zensory2 from "@/public/images/zensory-02.png";
 import ProjectTransparency from "@/public/icons/project-transparency";
 import ReliableTalent from "@/public/icons/reliable-talent";
+
+import octilearn from "@/public/images/Mockups/octilearn.png";
+import atla from "@/public/images/Mockups/atla.png";
+import biaCare from "@/public/images/Mockups/bia-care-mac-and-iphone.png";
+import brain from "@/public/images/Mockups/brain.png";
+import candidatePortal from "@/public/images/Mockups/candidate-portal.png";
+import cumulus from "@/public/images/Mockups/Cumulus.png";
+import movieApp from "@/public/images/Mockups/movie-app.png";
+import neuroplan from "@/public/images/Mockups/neuroplan.png";
+import seeium from "@/public/images/Mockups/Seeium.png";
+import zensory from "@/public/images/Mockups/zensory.png";
 
 export const skills = [
   {
@@ -56,41 +55,106 @@ export const skills = [
   },
 ];
 
-export const portfolio = [
+export const projects = [
   {
-    title: "NextJS Web App",
-    year: "2024",
-    firstImage: Octilearn,
-    secondImage: Octilearn2,
+    slug: "string",
+    description: "string",
+    img: octilearn,
+    name: "Octilearn",
+    github: "string",
+    technologies: ["React", "PostgreSQL", "AWS", "OpenAI"],
+    industry: "EdTech",
+    timeline: "Current",
   },
   {
-    title: "Supabase/NextJS Web App & React Native Mobile App",
-    year: "2022",
-    firstImage: BiaCare1,
-    secondImage: BiaCare2,
+    slug: "string",
+    description: "string",
+    img: cumulus,
+    name: "Cumulus Labs",
+    github: "string",
+    technologies: ["NextJS", "Supabase", "AWS", "Stripe"],
+    industry: "Social Media",
+    timeline: "Current",
   },
   {
-    title: "Supabase & NextJS Web App",
-    year: "2022",
-    firstImage: CandidatePortal,
-    secondImage: null,
+    slug: "string",
+    description: "string",
+    img: biaCare,
+    name: "Bia Care",
+    github: "string",
+    technologies: ["NextJS", "Supabase", "React Native"],
+    industry: "HealthTech",
+    timeline: "2022",
+  },
+
+  {
+    slug: "string",
+    description: "string",
+    img: candidatePortal,
+    name: "Recruitment Portal",
+    github: "string",
+    technologies: ["NextJS", "Supabase", "Zoho"],
+    industry: "Enterprise",
+    timeline: "2023",
   },
   {
-    title: "React Native App",
-    year: "2021",
-    firstImage: MovieApp1,
-    secondImage: MovieApp2,
+    slug: "string",
+    description: "string",
+    img: zensory,
+    name: "The Zensory",
+    github: "string",
+    technologies: ["React Native", "Firebase", "React"],
+    industry: "Mental Health",
+    timeline: "2023",
   },
   {
-    title: "React Native & Firebase App",
-    year: "2023",
-    firstImage: Neuroverse1,
-    secondImage: Neuroverse2,
+    slug: "string",
+    description: "string",
+    img: neuroplan,
+    name: "NeuroPlan",
+    github: "string",
+    technologies: ["React Native", "Firebase", "AWS"],
+    industry: "HealthTech",
+    timeline: "2023",
   },
   {
-    title: "React Native & Firebase App",
-    year: "2023",
-    firstImage: Zensory1,
-    secondImage: Zensory2,
+    slug: "string",
+    description: "string",
+    img: movieApp,
+    name: "Movie App",
+    github: "string",
+    technologies: ["React Native"],
+    industry: "Entertainment",
+    timeline: "2022",
+  },
+  {
+    slug: "string",
+    description: "string",
+    img: brain,
+    name: "Brain",
+    github: "string",
+    technologies: ["Webflow"],
+    industry: "ISP",
+    timeline: "2024",
+  },
+  {
+    slug: "string",
+    description: "string",
+    img: seeium,
+    name: "Seeium",
+    github: "string",
+    technologies: ["React Native", "NextJS"],
+    industry: "Travel",
+    timeline: "2024",
+  },
+  {
+    slug: "string",
+    description: "string",
+    img: atla,
+    name: "Atla",
+    github: "string",
+    technologies: ["Webflow"],
+    industry: "Textile",
+    timeline: "2022",
   },
 ];
