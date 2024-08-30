@@ -30,7 +30,7 @@ export default function PortfolioCarousel() {
           </div>
           <div>
             <div
-              className={`grid grid-cols-1 md:grid-cols-2 place-items-center gap-12  overflow-hidden `}
+              className={`grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 place-items-center gap-12  overflow-hidden `}
             >
               {featuredProjects.map((project, index) => (
                 <ProjectCard
@@ -49,7 +49,7 @@ export default function PortfolioCarousel() {
               ))}
             </div>
             <div
-              className={`grid grid-cols-1 md:grid-cols-2 place-items-center gap-12 transition-all overflow-hidden ease-in-out duration-1000 ${
+              className={`grid grid-cols-1 md:grid-cols-2  2xl:grid-cols-4 place-items-center gap-12 transition-all overflow-hidden ease-in-out duration-1000 ${
                 showAll ? `max-h-[3000px]` : "max-h-0"
               }`}
             >
