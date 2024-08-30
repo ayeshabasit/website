@@ -28,7 +28,7 @@ const ProjectCard = ({ project, filter }: Props) => {
       {/* <Tilt className="Tilt cursor-pointer" options={{ max: 2 }}> */}
       <div
         className="rounded-2xl
-            transition-all duration-300 transform hover:opacity-80 hover:drop-shadow-2xl hover:scale-110 w-[350px] md:w-[470px] mt-4 "
+            transition-all duration-300 transform hover:opacity-80 hover:drop-shadow-2xl hover:scale-110 w-[320px] md:w-[470px] 2xl:w-[400px] mt-4 "
       >
         <div className="flex justify-center items-center align-center ">
           {/* <Link
@@ -42,14 +42,16 @@ const ProjectCard = ({ project, filter }: Props) => {
           />
           {/* </Link> */}
         </div>
-        <div className="flex justify-between text-athenix-dark-green mt-4">
+        <div className="flex flex-col md:flex-row items-center justify-between text-athenix-dark-green mt-4">
           <div>
-            <div className="text-xl font-semibold">{project.name}</div>
+            <div className="text-xl font-semibold text-center md:text-left">
+              {project.name}
+            </div>
             <div className="text-athenix-light-green">
               {project.technologies.join(" / ")}
             </div>
           </div>
-          <div>
+          <div className="text-center md:text-right">
             <div>{project.timeline}</div>
             <div className="text-athenix-light-green">{project.industry}</div>
           </div>
