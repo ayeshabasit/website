@@ -36,6 +36,7 @@ module.exports = {
         // Athenix colors here
 
         "athenix-bright-green": "#3DBB6D",
+        "athenix-button-highlight": "#184a33",
         "athenix-dark-green": "#113826",
         "athenix-light-green": "#A2B3AB",
         "athenix-white": "#F9F9FB",

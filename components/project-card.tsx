@@ -13,6 +13,8 @@ export interface Project {
   technologies: string[];
   github: string;
   url?: string;
+  intro?: string;
+  isMobile?: boolean;
 }
 
 type Props = {
@@ -30,18 +32,16 @@ const ProjectCard = ({ project, filter }: Props) => {
         className="rounded-2xl
             transition-all duration-300 transform hover:opacity-80 hover:drop-shadow-2xl hover:scale-110 w-[320px] md:w-[470px] 2xl:w-[400px] mt-4 "
       >
-        <div className="flex justify-center items-center align-center ">
-          {/* <Link
+        <Link
           className="flex justify-center items-center align-center "
           href={`/projects/${project.slug}`}
-        > */}
+        >
           <Image
             className="rounded-2xl object-contain h-[170px] md:h-[250px]"
             src={project.img}
             alt={project.name}
           />
-          {/* </Link> */}
-        </div>
+        </Link>
         <div className="flex flex-col md:flex-row items-center justify-between text-athenix-dark-green mt-4">
           <div>
             <div className="text-xl font-semibold text-center md:text-left">
