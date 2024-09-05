@@ -1,27 +1,30 @@
 import Image, { StaticImageData } from "next/image";
-import VideoThumb from "@/public/images/testimonial-01.webp";
 import ModalVideo from "@/components/modal-video";
 
 type TestimonialCardProps = {
   src: StaticImageData;
+  videoThumbnail: StaticImageData;
   name: string;
   company: string;
   quote: string;
   linkedIn: string;
   companyLink: string;
+  videoLink: string;
 };
 
 export default function TestimonialCard({
   src,
+  videoThumbnail,
   name,
   company,
   quote,
   companyLink,
   linkedIn,
+  videoLink,
 }: TestimonialCardProps) {
   return (
     <div
-      className="flex flex-col h-full p-6 bg-gray-800"
+      className="flex flex-col p-6 bg-gray-800 mx-8 my-4 w-80 min-h-[500px]"
       data-aos="fade-up"
       data-aos-delay="200"
     >
@@ -44,11 +47,11 @@ export default function TestimonialCard({
         </div>
       </div>
       <ModalVideo
-        thumb={VideoThumb}
+        thumb={videoThumbnail}
         thumbWidth={1024}
         thumbHeight={576}
         thumbAlt="Modal video thumbnail"
-        video="https://www.youtube.com/embed/vnP6NOPKSbw?si=la4DPKeyz6Lsj2d0"
+        video={videoLink}
         videoWidth={1920}
         videoHeight={1080}
       />
