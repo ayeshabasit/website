@@ -25,7 +25,7 @@ export default function WaysWeCanWorkWithYou() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Flexible Ways We Can Work With You</h1>
             {staffAugmentation && (
-              <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="flex flex-col justify-between items-center">
                 <p
                   className={`text-xl mb-8 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     staffAugmentation
@@ -52,7 +52,7 @@ export default function WaysWeCanWorkWithYou() {
             )}
 
             {teams && (
-              <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="flex flex-col  justify-between items-center">
                 <p
                   className={`text-xl mb-8 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     teams ? "opacity-100 animate-fade-up" : "opacity-0"
