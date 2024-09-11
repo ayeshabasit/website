@@ -16,15 +16,15 @@ export default function Hero() {
               className="text-4xl md:text-6xl mb-4 font-medium"
               data-aos="fade-up"
             >
-              Trusted for Supabase Expertise by Startups Worldwide
+              Partnering with Startups as If They Were Our Own
             </h1>
             <p
               className="text-xl text-athenix-gray mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              All the Supabase & NextJS Developer Expertise You Need, Right
-              Here.
+              For Startups: Agile, Cost-Effective Solutions Tailored to Your
+              Fast-Paced Needs
             </p>
             <div className="flex flex-col ">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -33,7 +33,7 @@ export default function Hero() {
                   href="https://calendly.com/athenix-discovery-call/30min"
                   target="_blank"
                 >
-                  Tell us about your project
+                  Get In Touch
                 </a>
               </div>
             </div>

@@ -27,13 +27,13 @@ export default function WaysWeCanWorkWithYou() {
             {staffAugmentation && (
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <p
-                  className={`text-xl mb-8 md:mb-0 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
+                  className={`text-xl mb-8 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     staffAugmentation
                       ? "opacity-100 animate-fade-up"
                       : "opacity-0"
                   }`}
                 >
-                  Our software developers in your team.
+                  Have developers from Athenix join your team.
                 </p>
                 <div className="flex relative items-center justify-center w-72 h-72 bg-white rounded-full overflow-hidden">
                   <Lottie
@@ -54,11 +54,14 @@ export default function WaysWeCanWorkWithYou() {
             {teams && (
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <p
-                  className={`text-xl mb-8 md:mb-0 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
+                  className={`text-xl mb-8 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     teams ? "opacity-100 animate-fade-up" : "opacity-0"
                   }`}
                 >
-                  Our teams in your organization.
+                  Entire teams can join your organization. Designers, project
+                  managers, and developers. You work with them directly. They
+                  can join your communication platforms and coding repositories
+                  as if they were teams you recruited and hired yourself.
                 </p>
                 <div className="flex relative items-center justify-center w-72 h-72 bg-white rounded-full overflow-hidden">
                   <Lottie
@@ -75,13 +78,15 @@ export default function WaysWeCanWorkWithYou() {
             )}
 
             {Outsourcing && (
-              <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="flex flex-col justify-between items-center">
                 <p
-                  className={`text-xl mb-8 md:mb-0 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
+                  className={`text-xl mb-8 md:text-2xl text-left text-gray-400 transition-opacity duration-500 ease-out ${
                     Outsourcing ? "opacity-100 animate-fade-up" : "opacity-0"
                   }`}
                 >
-                  Our PM and software developments teams building for you.
+                  Don't want the hassle of running a team? Not a problem. Work
+                  directly with our project managers and tech leads while they
+                  do the grunt work of running a team behind the scenes.
                 </p>
                 <div className="flex relative items-center justify-center w-72 h-72 bg-white rounded-full overflow-hidden">
                   <Lottie
@@ -112,7 +117,7 @@ export default function WaysWeCanWorkWithYou() {
                   setOutsourcing(false);
                 }}
               >
-                Staff Augmentation
+                Take a developer
               </div>
               <div
                 className={`flex px-2 py-2 md:py-4 md:px-8 items-center rounded-lg text-center text-athenix-dark-green h-full text-sm md:text-lg ${
@@ -124,7 +129,7 @@ export default function WaysWeCanWorkWithYou() {
                   setOutsourcing(false);
                 }}
               >
-                Software Development Teams
+                Take a Team
               </div>
               <div
                 className={`flex px-2 md:px-8 items-center rounded-lg text-center text-athenix-dark-green h-full text-sm md:text-lg ${
@@ -138,7 +143,7 @@ export default function WaysWeCanWorkWithYou() {
                   setOutsourcing(true);
                 }}
               >
-                Software Development Outsourcing
+                Give us a project
               </div>
             </div>
           </div>
