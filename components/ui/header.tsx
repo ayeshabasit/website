@@ -11,12 +11,12 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-row items-center shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Athenix">
+            <Link href="/" className="w-36 md:w-64 block" aria-label="Athenix">
               <Image
                 src={Logo}
                 alt="logo"
-                width={120}
-                height={80}
+                // width={180}
+                // height={80}
                 style={{
                   width: "100%",
                   height: "auto",
