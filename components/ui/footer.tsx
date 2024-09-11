@@ -28,9 +28,8 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="text-gray-400">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups.
+                Athenix is a registered entity in Canada, specializing in
+                cutting-edge software development solutions.
               </div>
             </div>
 
@@ -38,45 +37,41 @@ export default function Footer() {
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Products</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Contact Us</h6>
                 <ul>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Web Studio
-                    </Link>
+                  <li className="mb-1 text-gray-400">
+                    43 Brookdale Crescent, Brampton, ON L6T 1M8, Canada
                   </li>
                   <li className="mb-1">
-                    <Link
-                      href="/"
+                    <a
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                      href={`tel:+16475429718`}
                     >
-                      DynamicBox Flex
-                    </Link>
+                      Phone: (647) 542-9718
+                    </a>
                   </li>
                   <li className="mb-1">
-                    <Link
-                      href="/"
+                    <a
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                      href="mailto: admin@athenix.co"
                     >
-                      Programming Forms
-                    </Link>
+                      {" "}
+                      admin@athenix.co
+                    </a>
                   </li>
                 </ul>
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Quick Links</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
                       href="/"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Nostrud exercitation
+                      About Us
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -84,7 +79,7 @@ export default function Footer() {
                       href="/"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Visual mockups
+                      Our Services
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -92,7 +87,7 @@ export default function Footer() {
                       href="/"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Nostrud exercitation
+                      Privacy Policy
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -100,15 +95,7 @@ export default function Footer() {
                       href="/"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Visual mockups
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Nostrud exercitation
+                      Terms of Service
                     </Link>
                   </li>
                 </ul>
@@ -116,47 +103,17 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
+                <h6 className="text-gray-200 font-medium mb-1">
+                  Client Testimonials
+                </h6>
                 <ul>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Consectetur adipiscing
-                    </Link>
+                  <li className="mb-4 text-gray-400">
+                    "I would highly recommend Athenix for anyone in search of a
+                    software company" – Cory Salveson, CTO of Cumulus{" "}
                   </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Labore et dolore
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Consectetur adipiscing
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Labore et dolore
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Consectetur adipiscing
-                    </Link>
+                  <li className="mb-4 text-gray-400">
+                    " It felt like they were just an extension of our startup."
+                    – Abubakar Sial, CEO of Octilearn{" "}
                   </li>
                 </ul>
               </div>
@@ -166,7 +123,7 @@ export default function Footer() {
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
                   href="/"
@@ -244,7 +201,7 @@ export default function Footer() {
                   </svg>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
 
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
