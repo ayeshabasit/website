@@ -1,5 +1,6 @@
 import SkillsCard from "./skills-card";
 import { skills } from "./constants";
+import { HeadingWithLink } from "./heading-with-link";
 
 export default function Features() {
   return (
@@ -10,8 +11,10 @@ export default function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <div className="max-w-3xl mx-auto text-center text-athenix-dark-green">
               <h2 className="h1 mb-12">
-                Streamline Your Startup: Hire Affordable, Reliable Developers
-                with Ease
+                <HeadingWithLink id="benefits">
+                  Streamline Your Startup: Hire Affordable, Reliable Developers
+                  with Ease
+                </HeadingWithLink>
               </h2>
             </div>
 

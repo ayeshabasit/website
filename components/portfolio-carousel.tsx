@@ -4,6 +4,7 @@ import { projects } from "./constants";
 import { useState } from "react";
 import UpArrow from "@/public/icons/up-arrow";
 import DownArrow from "@/public/icons/down-arrow";
+import { HeadingWithLink } from "./heading-with-link";
 
 export default function PortfolioCarousel() {
   const [showAll, setShowAll] = useState(false);
@@ -22,7 +23,11 @@ export default function PortfolioCarousel() {
       <div className="px-2 sm:px-6">
         <div className="mx-4 py-8 md:py-10">
           <div className="max-w-3xl mx-auto text-center text-athenix-dark-green">
-            <h2 className="h1 ">What We’ve Delivered</h2>
+            <h1 className="h1">
+              <HeadingWithLink id="portfolio">
+                What We’ve Delivered
+              </HeadingWithLink>
+            </h1>
             <p className="text-xl text-gray-400 mb-12 mt-2">
               Take a look at the projects we’ve brought to life, showcasing our
               dedication to delivering top-notch results.

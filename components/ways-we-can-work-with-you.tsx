@@ -12,6 +12,7 @@ import Lottie from "react-lottie-player";
 import staffAugmentationLottie from "@/public/lottie/staff_augmentation.json";
 import dedicatedTeamsLottie from "@/public/lottie/dedicated_teams.json";
 import softwareOutsourcing from "@/public/lottie/software_outsourcing.json";
+import { HeadingWithLink } from "./heading-with-link";
 
 export default function WaysWeCanWorkWithYou() {
   const [staffAugmentation, setStaffAugmentation] = useState<boolean>(true);
@@ -23,7 +24,12 @@ export default function WaysWeCanWorkWithYou() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Flexible Ways We Can Work With You</h1>
+            <h1 className="h2 mb-4">
+              <HeadingWithLink id="ways-we-can-work-with-you">
+                Flexible Ways We Can Work With You
+              </HeadingWithLink>
+            </h1>
+
             {staffAugmentation && (
               <div className="flex flex-col justify-between items-center">
                 <p

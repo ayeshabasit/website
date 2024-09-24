@@ -6,6 +6,7 @@ import TestimonialImage03 from "@/public/images/testimonial-03.jpg";
 import TestimonialCard from "./testimonial-card";
 import CumulusVideoThumbnail from "@/public/images/cumulus_testimonial_thumbnail.webp";
 import OctilearnVideoThumbnail from "@/public/images/octilearn_testimonial_thumbnail.webp";
+import { HeadingWithLink } from "./heading-with-link";
 
 export default function Testimonials() {
   return (
@@ -15,7 +16,11 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <div className="max-w-3xl mx-auto text-center text-athenix-dark-green">
-              <h2 className="h1 mb-12">Don't take our word for it</h2>
+              <h2 className="h1 mb-12">
+                <HeadingWithLink id="testimonials">
+                  Don't take our word for it
+                </HeadingWithLink>
+              </h2>
             </div>
 
             <p className="text-xl text-gray-400">
