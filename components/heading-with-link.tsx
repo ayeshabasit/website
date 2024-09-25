@@ -12,7 +12,7 @@ export const HeadingWithLink: React.FC<HeadingWithLinkProps> = ({
   children,
 }) => {
   return (
-    <h2 id={id} className="group relative">
+    <h2 id={id} className="group relative scroll-mt-24">
       {children}
       <a
         href={`#${id}`}

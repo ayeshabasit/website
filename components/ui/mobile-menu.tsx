@@ -40,7 +40,7 @@ export default function MobileMenu() {
       {/* Hamburger button */}
       <button
         ref={trigger}
-        className={`hamburger ${mobileNavOpen && "active"}`}
+        className={`hamburger ${mobileNavOpen && "active"} `}
         aria-controls="mobile-nav"
         aria-expanded={mobileNavOpen}
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
@@ -68,24 +68,25 @@ export default function MobileMenu() {
             : { maxHeight: 0, opacity: 0.8 }
         }
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-gray-800 px-4 py-2 flex flex-col items-center justify-center">
           <li>
-            <Link
-              href="/signin"
-              className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center"
-              onClick={() => setMobileNavOpen(false)}
-            >
-              Sign in
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-              onClick={() => setMobileNavOpen(false)}
-            >
-              Sign up
-            </Link>
+            <div className="text-white-600 hover:text-athenix-gray px-4 py-3 flex items-center justify-center transition duration-150 ease-in-out">
+              <Link href="#portfolio">Our Work</Link>
+            </div>
+            <div className="text-white-600 hover:text-athenix-gray px-4 py-3 flex items-center justify-center transition duration-150 ease-in-out">
+              <Link className="text-center" href="#testimonials">
+                Testimonials
+              </Link>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400">
+              <a
+                className="text-center justify-center btn text-black bg-athenix-white hover:bg-athenix-gray hover:text-black w-auto"
+                href="https://calendly.com/athenix-discovery-call/30min"
+                target="_blank"
+              >
+                Get in Touch
+              </a>
+            </div>
           </li>
         </ul>
       </nav>
